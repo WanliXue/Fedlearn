@@ -47,8 +47,8 @@ def fl_average():
     arr = load_models()
     fl_avg = np.average(arr, axis=0)
 
-    for i in fl_avg:
-        print(i.shape)
+    # for i in fl_avg:
+    #     print(i.shape)
 
     return fl_avg
 
